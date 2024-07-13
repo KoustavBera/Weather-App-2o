@@ -2,7 +2,7 @@
 
 Welcome to Weather 2.0, a sleek and responsive web application for checking the current weather conditions in any city around the world. Built with HTML, CSS, and JavaScript, this application leverages the OpenWeatherMap API to provide real-time weather data.
 
-preview: koustavberajsseriesweatherapp.netlify.app
+preview: https://koustavberajsseriesweatherapp.netlify.app/
 
 ## Features
 
