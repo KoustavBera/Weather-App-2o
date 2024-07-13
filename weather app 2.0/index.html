@@ -87,6 +87,15 @@
       checkWeather(inputcity.value);
     });
 
+    //adding keyboard enter functionality to the search box add extra level of convenience
+    let searchKeyPress = document.querySelectr(".search");
+    searchKeyPress.addEventListener("keypress",(e)=>{
+      if(e.key == "Enter"){
+        checkWeather(inputcity.value);
+      }
+    }
+
+    
     async function checkWeather(city) {
       document.querySelector(".fetch-parent").style.display = "block";
       setInterval(() => {
